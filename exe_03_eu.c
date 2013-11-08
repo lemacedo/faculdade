@@ -40,7 +40,7 @@ void cadastro(CAN*p){
 void exibir(CAN*p){
 	int cont;
 	for(cont = 1; cont <= TAM; cont ++){
-		printf("Numero: %d Nome: %s Partido: %s Total de Votos: %d", p->nome, p-> );
+		printf("Numero: %d Nome: %s Partido: %s Total de Votos: %d",p->numero_cand, p->nome, p->partido, p-> votos );
 		
 		}
 	
